@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CadastroActivity"
-            android:label="Cadastrar Anuncio"></activity>
+            android:label="Cadastrar Anuncio"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

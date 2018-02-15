@@ -8,27 +8,45 @@
     android:layout_marginTop="30dp"
     tools:context="com.app.anunciosolx.CadastroActivity">
 
-    <EditText
-        android:id="@+id/campo_descricao"
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:hint="@string/descricao" />
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/campo_valor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:layout_margin="5dp"
-        android:hint="@string/valor" />
+        <EditText
+            android:id="@+id/campo_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/descricao" />
 
-    <EditText
-        android:id="@+id/campo_local"
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:hint="@string/local" />
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/campo_valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_margin="5dp"
+            android:hint="@string/valor" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/campo_local"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/local" />
+
+    </android.support.design.widget.TextInputLayout>
 
     <Button
         android:id="@+id/salvar"
